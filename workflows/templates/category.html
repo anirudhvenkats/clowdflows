@@ -1,0 +1,5 @@
+				<li><span class="folder">{{ category.name }}</span><ul>
+                    {% for widget in category.widgets.all %}
+                    	{% include "treeview_widget.html" with widget=widget %}
+                    {% endfor %}
+                </ul></li>
