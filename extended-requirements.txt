@@ -1,0 +1,5 @@
+orange==2.7
+numpy==1.7.1
+scikit-learn==0.13
+scipy==0.12.0
+
